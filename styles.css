@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+*{
+  font-family: Poppins , sans-serif;  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body{
+  color: white;
+  background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+}
+
+main{
+  //background-color: rgba(0,0,0,0.5);
+  width: 550px;
+  margin: 1rem auto;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+#title-group{
+  text-align: center;
+  padding: 0rem;
+}
+
+#title{
+  padding: 1rem;
+}
+
+form{
+  background: rgba(0,0,0,.5);
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 20px;
+}
+
+.form-group{
+  border-radius: 20px;
+  background-color: rgba(0,0,0,0.5);
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.form-input{
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  background: rgb(235 235 237);
+  border-radius: 20px;
+}
+
+.input-radio{
+  margin: 0.5rem;
+}
+
+.input-checkbox{
+  margin: 0.5rem;
+}
+
+#ending{
+  width: 100%;
+  height: 7rem;
+  padding: 0.5rem 1rem;
+  margin-top: 0.25rem;
+  resize: none;
+  border-radius: 20px;
+}
+
+#submit-group{
+  margin-bottom: 0;
+}
+
+#submit{
+  background-color: #FFD180;
+  color: black;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+#submit:hover{
+  background-color: #FF7043;
+  color: white;
+  transition: 0.25s;
+}
+
+.form-description{
+  align: left;
+  padding:0.5rem;
+}
