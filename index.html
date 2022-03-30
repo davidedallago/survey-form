@@ -4,137 +4,136 @@
     <meta charset='UTF-8'/>
     <title>Survey Form</title>
     <link rel='stylesheet' href='styles.css'/>
-    <meta name='viewport'
-    content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
   </head>
   <body>
     <main>
-  <!-- Title section -->
-  <section id="title-group">
-    <h1 id="title">MY FIRST CAR</h1>
-    <p id="description">Description of the first car you have ever own</p>
-  </section>
-  
-    <!-- Form section -->
-  <form action="" id="survey-form">
-    
-    <div id="name-group" class="form-group">
-      <label for="name-label" class="form-description" id="name-label">Name</label>
-      <input 
-           type="name" 
-           placeholder="Enter your name"
-           id="name"
-           name="name"
-           class="form-input"
-           required
-           />
-    </div>
-    
-    <div id="email-group" class="form-group">
-      <label for="email-label" class="form-description" id="email-label">Email</label>
-      <input 
-             type="email" 
-             placeholder="Enter your email"
-             id="email"
-             name="email"
-             class="form-input"
-             required
-             />      
-    </div>
+      <!-- Title section -->
+      <section id="title-group">
+        <h1 id="title">MY FIRST CAR</h1>
+        <p id="description">Description of the first car you have ever own</p>
+      </section>
+      
+        <!-- Form section -->
+      <form action="" id="survey-form">
+        
+        <div id="name-group" class="form-group">
+          <label for="name-label" class="form-description" id="name-label">Name</label>
+          <input 
+              type="name" 
+              placeholder="Enter your name"
+              id="name"
+              name="name"
+              class="form-input"
+              required
+              />
+        </div>
+        
+        <div id="email-group" class="form-group">
+          <label for="email-label" class="form-description" id="email-label">Email</label>
+          <input 
+                type="email" 
+                placeholder="Enter your email"
+                id="email"
+                name="email"
+                class="form-input"
+                required
+                />      
+        </div>
 
-    <div id="number-group" class="form-group">
-      <label for="number-label" class="form-description" id="number-label">Age</label>
-      <input 
-             type="number" 
-             placeholder="Age"
-             id="number"
-             name="number"
-             class="form-input"
-             min="18"
-             max="99"
-             required
-             />      
-    </div>
-    
-    <div id="dropdown-group" class="form-group">
-      <p class="form-description">What kind of power did the car use?<p>
-        <select id="dropdown" name="source" required class="form-input">
-          <option disabled selected value>Select one</option>
-          <option value="petrol">Petrol</option>
-          <option value="diesel">Diesel</option>
-          <option value="hybrid">Hybrid</option>
-          <option value="electric">Electric</option>
-          <option value="other">Others</option>
-        </select>
-      </label>
-    </div>
-  
-    <div id="future-group" class="form-group">
-      <p class="form-description">What kind of transmission did the car use?</p>
-      <label>
-        <input
-          name="transmission"
-          value="auto"
-          type="radio"
-          class="input-radio"
-        />Automatic</label
-      >
+        <div id="number-group" class="form-group">
+          <label for="number-label" class="form-description" id="number-label">Age</label>
+          <input 
+                type="number" 
+                placeholder="Age"
+                id="number"
+                name="number"
+                class="form-input"
+                min="18"
+                max="99"
+                required
+                />      
+        </div>
+        
+        <div id="dropdown-group" class="form-group">
+          <p class="form-description">What kind of power did the car use?<p>
+            <select id="dropdown" name="source" required class="form-input">
+              <option disabled selected value>Select one</option>
+              <option value="petrol">Petrol</option>
+              <option value="diesel">Diesel</option>
+              <option value="hybrid">Hybrid</option>
+              <option value="electric">Electric</option>
+              <option value="other">Others</option>
+            </select>
+          </label>
+        </div>
+      
+        <div id="future-group" class="form-group">
+          <p class="form-description">What kind of transmission did the car use?</p>
+          <label>
+            <input
+              name="transmission"
+              value="auto"
+              type="radio"
+              class="input-radio"
+            />Automatic</label
+          >
 
-      <label
-        ><input
-          name="transmission"
-          value="manual"
-          type="radio"
-          class="input-radio"
-        />Manual</label
-      >
-    </div>
-  
-      <div id="improve-group" class="form-group">
-      <p class="form-description">Which of this optional did it had?</p>
-      <label>
-        <input
-          name="optional"
-          value="air-conditioner"
-          type="checkbox"
-          class="input-checkbox"
-        />Air conditioner</label
-      >
-      <label>
-        <input
-          name="optional"
-          value="4wd"
-          type="checkbox"
-          class="input-checkbox"
-        />Four wheels drive</label
-      >
+          <label
+            ><input
+              name="transmission"
+              value="manual"
+              type="radio"
+              class="input-radio"
+            />Manual</label
+          >
+        </div>
+      
+          <div id="improve-group" class="form-group">
+          <p class="form-description">Which of this optional did it had?</p>
+          <label>
+            <input
+              name="optional"
+              value="air-conditioner"
+              type="checkbox"
+              class="input-checkbox"
+            />Air conditioner</label
+          >
+          <label>
+            <input
+              name="optional"
+              value="4wd"
+              type="checkbox"
+              class="input-checkbox"
+            />Four wheels drive</label
+          >
 
-      <label
-        ><input
-          name="optional"
-          value="abs"
-          type="checkbox"
-          class="input-checkbox"
-        />ABS</label
-      >
-    </div>
-  
-    <div id="story-group" class="form-group">
-      <p class="form-description">Tell us why you liked it</p>
-      <textarea
-        id="ending"
-        class="input-textarea"
-        name="ending"
-        placeholder="I liked my car because..."
-      ></textarea> 
-    </div> 
-  
-    <div id="submit-group">
-      <button type="submit" id="submit" class="submit-button">
-        Submit
-      </button>
-    </div>  
-  
-  </form>
-</main>
+          <label
+            ><input
+              name="optional"
+              value="abs"
+              type="checkbox"
+              class="input-checkbox"
+            />ABS</label
+          >
+        </div>
+      
+        <div id="story-group" class="form-group">
+          <p class="form-description">Tell us why you liked it</p>
+          <textarea
+            id="ending"
+            class="input-textarea"
+            name="ending"
+            placeholder="I liked my car because..."
+          ></textarea> 
+        </div> 
+      
+        <div id="submit-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>  
+      
+      </form>
+    </main>
   </body>
+</html>
